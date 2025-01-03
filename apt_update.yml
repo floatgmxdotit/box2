@@ -1,5 +1,5 @@
 ---
-- name: Update packages on raspberry zero hosts
+- name: Update apt-get
   hosts: all
   become: yes
   gather_facts: false
